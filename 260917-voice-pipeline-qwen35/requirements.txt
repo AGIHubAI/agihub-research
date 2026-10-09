@@ -1,0 +1,16 @@
+# Versions this experiment was measured with (2026-09-16, MacBook Air M4, Python 3.12).
+numpy==2.5.3
+soundfile==0.14.0
+scipy==1.18.1
+mlx==0.32.2
+mlx-whisper==0.4.3
+mlx-lm==0.31.3
+kokoro==0.9.4
+misaki[en]==0.9.4
+ollama==0.6.2
+spacy==3.8.16
+huggingface-hub==1.31.0
+# notebook + headless run
+nbconvert==7.17.1
+ipykernel==7.3.0
+jupyterlab==4.6.3
