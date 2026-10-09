@@ -16,8 +16,10 @@ Monorepo of independent experiments. One folder per experiment at the root, name
 | Folder | Claim | Outcome |
 |---|---|---|
 | [`260917-voice-pipeline-qwen35`][e1] | qwen3.5:4b voice turn, first audio < 1.5 s | mlx-lm yes, Ollama no |
+| [`260917-multitrack-voice`][e2] | 270m filler + 1b speaker + 4B reasoner, first audio ≤ 400 ms | route-aware yes, always-filler no |
 
 [e1]: 260917-voice-pipeline-qwen35/
+[e2]: 260917-multitrack-voice/
 
 ## Run an experiment
 
